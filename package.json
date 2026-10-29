@@ -1,0 +1,17 @@
+{
+  "name": "interio-netlify-neondb",
+  "version": "2.4.0",
+  "description": "Interio - Architectural Interior Design Studio, Try-It-Out Visualizer, Niches & Utility Suite powered by Netlify Functions and NeonDB Serverless PostgreSQL",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static bundle & Netlify functions ready for deployment'"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="55%" stop-color="#F7F1E8"/>
+      <stop offset="100%" stop-color="#EFE5D8"/>
+    </linearGradient>
+    <linearGradient id="archGrad" x1="28" y1="20" x2="100" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D48462"/>
+      <stop offset="50%" stop-color="#C86D51"/>
+      <stop offset="100%" stop-color="#A6533A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="40" y1="24" x2="88" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E2BA78"/>
+      <stop offset="100%" stop-color="#B88942"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#8C6D53" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="28" fill="url(#bgGrad)" stroke="#E2D5C4" stroke-width="3"/>
+  <path d="M22 98 H106 M34 98 L48 78 H80 L94 98" stroke="#DCCB9A" stroke-opacity="0.55" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M32 100 V58 C32 40.3269 46.3269 26 64 26 C81.6731 26 96 40.3269 96 58 V100 H82 V58 C82 48.0589 73.9411 40 64 40 C54.0589 40 46 48.0589 46 58 V100 H32 Z" fill="url(#archGrad)" filter="url(#softShadow)"/>
+  <line x1="64" y1="40" x2="64" y2="57" stroke="url(#goldGrad)" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="64" cy="63" r="7.5" fill="url(#goldGrad)" filter="url(#softShadow)"/>
+  <circle cx="64" cy="63" r="3" fill="#FFFDF9"/>
+  <path d="M49 85 C53 79 75 79 79 85" stroke="#6B7F6E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M43 93 H85" stroke="url(#goldGrad)" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M88 30 L90 35 L95 37 L90 39 L88 44 L86 39 L81 37 L86 35 Z" fill="url(#goldGrad)"/>
+</svg>
